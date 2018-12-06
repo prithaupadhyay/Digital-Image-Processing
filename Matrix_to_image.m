@@ -4,7 +4,7 @@ clear;
 clc;
 clf;
 
-#convert matrix to image
+#convert matrix to image directly
 a=imread('cameraman.tif')
 #variable a contains the matrix for image
 b=mat2gray(a); #converts matrix to gray image
